@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome To PlastiCart</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="wel">
+      <h1>Welcome to PlastiCart</h1>
+    </div>
+    <ul>
+      <li>
+        <button class="btnLogin-popup" onclick="loginUser()">
+          Login as User
+        </button>
+      </li>
+      <li>
+        <button class="btnLogin-popup" onclick="loginVendor()">
+          Login as Vendor
+        </button>
+      </li>
+      <li>
+        <button class="btnLogin-popup" onclick="loginAdmin()">
+          Login as Admin
+        </button>
+      </li>
+    </ul>
+
+    <script>
+      function loginUser() {
+        window.location.href = "user_index.html";
+      }
+
+      function loginVendor() {
+        window.location.href = "vendor_index.html";
+      }
+
+      function loginAdmin() {
+        window.location.href = "admin_index.html";
+      }
+    </script>
+  </body>
+</html>

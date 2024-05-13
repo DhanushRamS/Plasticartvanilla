@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="stylescn.css">
+    <style>
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .header .points {
+            margin-right: 20px;
+        }
+
+        .header button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="points">
+            Current Points: <span id="currentPoints">100</span>
+        </div>
+        <p id="redeemBtn">Redeem Your Points</p>
+    </div>
+    <div class="container">
+        <div class="camera-video">
+            <h1>Hello User Please Scan your plastic &dArr;</h1>
+            <video id="video" width="500" height="340"></video>
+            <button id="snap"> </button>
+        </div>
+        <div class="camera-snapshot" id="camera-snapshot">
+
+        </div>
+        <div class="upload"></div>
+    </div>
+    <script src="camera.js"></script>
+</body>
+</html>

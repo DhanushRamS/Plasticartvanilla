@@ -36,7 +36,7 @@ header ul {
 
 header ul a {
     text-decoration: none;
-    color: #fff;
+    color: black ;
     padding: 0 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
@@ -66,7 +66,7 @@ header ul a {
     position: relative;
     width: 52%;
     height: 1.34px;
-    background-color: white;
+    background-color: black;
     border-radius: 2px;
 }
 
@@ -92,14 +92,14 @@ header ul a {
 
 .logo {
     font-size: 2em;
-    color: white;
+    color: black;
     user-select: none;
 }
 
 .navigation a {
     position: relative;
     font-size: 1.1em;
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -113,7 +113,7 @@ header ul a {
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background: white;
+    background: black;
     border-radius: 5px;
     transform-origin: right;
     transform: scaleX(0);
@@ -131,12 +131,12 @@ header ul a {
     width: 130px;
     height: 50px;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid black;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1.1em;
-    color: white;
+    color: black;
     font-weight: 500;
     margin-left: 40px;
     transition: .5s;
@@ -144,7 +144,7 @@ header ul a {
 }
 
 .navigation .btnLogin-popup:hover {
-    background: white;
+    background: black;
     color: #162938;
 }
 
@@ -164,7 +164,7 @@ main {
     text-align: center;
     text-transform: uppercase;
     pointer-events: auto;
-    color: white;
+    color: black;
 }
 
 .text h2 {
@@ -275,6 +275,7 @@ main {
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     display: flex;
